@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão Virtual Matheus H Souza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="imagens/MatheusT.I..png" alt="Sua Foto" class="profile-pic">
+    </div>
+    <div class="container">
+        <!-- Adicione a sua foto aqui -->
+        <h2>Matheus H Souza</h2>
+        <h3>Consultor de T.I</h3>
+
+<!-- Contêiner para o botão de Salvar Contato e botão QR Code -->
+<div class="qr-salvar-container">
+
+    <!-- Botão de QR Code -->
+<img id="icone-qr" src="imagens/codigo-qr.png" alt="Ícone de Código QR" onclick="alternarImagem()">
+
+<!-- Contêiner para exibir a imagem -->
+<div id="imagem-visualizacao" class="imagem-visualizacao" onclick="alternarImagem()">
+    <img src="imagens/qrcode.png" alt="Sua Imagem">
+</div>
+
+    <!-- Botão de Salvar Contato -->
+<a href="data:text/vcard;utf-8,BEGIN:VCARD%0AVERSION:3.0%0AN:Matheus%0ATEL:44920009049%0AEMAIL:matheushenrique2011@gmail.com%0AEND:VCARD" class="save-contact-btn">
+    Salvar Contato
+</a>
+
+</div>
+    
+        <!-- Contêiner para botões de contato -->
+        <div class="contact-buttons">
+            <!-- Botão de Discagem Rápida com ícone -->
+            <a href="tel:44920009049" class="contact-btn">
+                <img src="imagens/telefone.png" alt="Ícone de Telefone" class="icon">
+            </a>
+            <!-- Botão de Enviar E-mail com ícone -->
+            <a href="mailto:matheushenrique2011@gmail.com" class="contact-btn">
+                <img src="imagens/o-email.png" alt="Ícone de E-mail" class="icon">
+            </a>
+            <!-- Botão de WhatsApp com ícone -->
+            <a href="https://api.whatsapp.com/send?phone=44920009049" class="contact-btn">
+                <img src="imagens/whatsapp.png" alt="Ícone do WhatsApp" class="icon">
+            </a>
+            <!-- Botão de Maps com ícone -->
+            <a href="https://maps.app.goo.gl/3dJj1rr7tA2w4qoC6" class="contact-btn">
+                <img src="imagens/google-maps.png" alt="Ícone de Maps" class="icon">
+            </a>
+        </div>
+        
+        <!-- Imagem de visualização -->
+        <img id="imagem-visualizacao" src="imagens/codigo-qr.png" alt="Sua Imagem" onclick="alternarImagem()">
+        
+        <h3>Nossas Redes Sociais:</h3>
+        <div class="social-buttons">
+            <div class="btn-container">
+                <a href="https://www.facebook.com/matheusH.Souza2002" class="btn">
+                    <img src="imagens/facebook.png" alt="Ícone do Facebook" class="icon">
+                    Facebook
+                </a>
+            </div>
+            <div class="btn-container">
+                <a href="https://www.instagram.com/matheus_henrique_2002" class="btn">
+                    <img src="imagens/instagram.png" alt="Ícone do Instagram" class="icon">
+                    Instagram
+                </a>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
