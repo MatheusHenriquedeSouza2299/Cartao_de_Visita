@@ -1,5 +1,5 @@
 # Cartao_de_Visita
-<img src="imagens/tela.jpg" height="20%" width="20%">
+<img src="imagens/tela.jpg" height="35%" width="35%">
 <img src="imagens/qrcodesite.png">
 Cartão de Visita Digital Interativo
 
