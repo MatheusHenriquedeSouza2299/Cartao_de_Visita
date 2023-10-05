@@ -1,4 +1,6 @@
 # Cartao_de_Visita
+<img src="imagens/tela.jpg">
+<img src="imagens/qrcodesite.png">
 Cartão de Visita Digital Interativo
 
 Este cartão de visita digital é a combinação perfeita de tecnologia e elegância, projetado para impressionar e facilitar a conexão em um mundo cada vez mais digital. Combinando o poder do HTML, CSS e JavaScript, este cartão oferece uma experiência interativa única que se destaca da multidão.
